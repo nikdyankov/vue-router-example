@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/kiten">Kiten</router-link> |
+      <router-link to="/nessebar">Nessebar</router-link> |
+      <router-link to="/sozopol">Sozopol</router-link> |
+      <router-link to="/sunny-beach">Sunny Beach</router-link>
     </div>
     <router-view />
   </div>
