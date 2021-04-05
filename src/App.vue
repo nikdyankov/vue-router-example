@@ -1,15 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/kiten">Kiten</router-link> |
-      <router-link to="/nessebar">Nessebar</router-link> |
-      <router-link to="/sozopol">Sozopol</router-link> |
-      <router-link to="/sunny-beach">Sunny Beach</router-link>
-    </div>
+    <Navigation />
     <router-view />
   </div>
 </template>
+
+<script>
+import Navigation from "@/components/Navigation";
+
+export default {
+  components: {
+    Navigation,
+  },
+};
+</script>
 
 <style>
 #app {
